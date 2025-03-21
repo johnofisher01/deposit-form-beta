@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    require("tailwindcss"), // Keep this, Tailwind still works normally with PostCSS
+    require("@tailwindcss/postcss7-compat"), // Updated to use the PostCSS 7 compatible version of Tailwind CSS
     require("autoprefixer"),
   ],
 };
