@@ -8,7 +8,7 @@ const formSchema = z.object({
   question_2: z.string().min(1, "What symptoms do you typically experience before or during your period, and how do they affect you?"),
   question_3: z.string().min(1, "How many days does your period usually last, and do you notice any changes from month to month?"),
   question_4: z.string().min(1, "How would you describe the level of pain or discomfort you feel during your period?"),
-  question_5: z.string().min(1, "What kinds of products, treatments, or coping strategies do you use to manage your period symptoms?"),
+  question_5: z.string().min(1, "......What kinds of products, treatments, or coping strategies do you use to manage your period symptoms?"),
   boolean_1: z.boolean(),
   boolean_2: z.boolean(),
 });
